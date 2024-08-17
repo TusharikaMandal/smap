@@ -1,0 +1,8 @@
+div.margine{
+    max-width: 600px;
+    margin: 3em auto;
+    justify-content: space-between;
+}
+button.btn{
+    margin: 20px;
+}

@@ -1,0 +1,108 @@
+/* SideNavbar.css */
+.side {
+    height: 100%;
+    width: 15%;
+    padding-left: 20px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #CECBC3;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a, .dropdown-btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .sidenav a:hover, .dropdown-btn:hover {
+    border-left:solid 4px #FF8F22;
+    background: none;
+    color: #FF8F22;
+  }
+  
+  .sidenav a.active, .dropdown-btn.active{
+    border-left:solid 4px #F17256;
+    color: #F17256;
+  }
+  .dropdown-container {
+    display: none;
+    padding-left: 8px;
+    border-bottom: 3px transparent;
+  }
+  
+  .drop-on-dropdown-btn  {
+    padding: 10px 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  .drop-on-dropdown-btn:hover {
+    padding: 10px 15px;
+    border-bottom: solid 3px #EFECE9;
+    background: none;
+    color: #4D180D;
+  }
+
+  .show {
+    display: block;
+  }
+  .drop-on-dropdown-container {
+    display: none;
+    padding-left: 8px;
+    border-bottom: 3px transparent;
+    background-color:#F17256 ;
+  }
+  .drop-on-dropdown-container a{
+    padding: 10px 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #EFECE9;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  .drop-on-dropdown-container a:hover{
+    padding: 10px 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  .do {
+    display: block;
+  }
+
+  
